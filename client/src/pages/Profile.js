@@ -9,7 +9,6 @@ import { QUERY_USER } from '../utils/queries';
 import FriendList from '../components/FriendsList';
 
 const Profile = () => {
-
   const { username: userParam } = useParams();
 
   const { loading, data } = useQuery(QUERY_USER, {
