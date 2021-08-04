@@ -14,7 +14,7 @@ const Login = (props) => {
 
     setFormState({
       ...formState,
-      [name]: value,
+      [name]: value
     });
   };
 
